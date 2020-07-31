@@ -64,16 +64,16 @@ Thank You.
 ### Authors
 
 * Emmanuel Akpe
-- Emmanuel.Akpe@azubiafrica.org
-- (Data Scientist)
+: Emmanuel.Akpe@azubiafrica.org
+
 
 * Efa Akoto
-- Efa.Akoto@azubiafrica.org
-- (Data Scientist)
+: Efa.Akoto@azubiafrica.org
+ 
 
 * Emmanuel Agyekum
-- Emmanuel.Agyekum@azubiafrica.org
-- (Data Scientist)
+:Emmanuel.Agyekum@azubiafrica.org
+
 
 
 
