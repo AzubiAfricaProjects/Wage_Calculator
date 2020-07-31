@@ -4,15 +4,15 @@ The Wage-Calculator package provides a simple calculator interface to calculate
 the total wage earned by an individual or an organisation on 
 hourly basis.
 
-###Systems Requirements
+### Systems Requirements
 To fully view and work with the code, a user must have python installed
 
-###Built-With
-*Python 3.7
-*Spyder IDE
+### Built-With
+* Python 3.7
+* Spyder IDE
 
 
-###Usage
+### Usage
 
 The calculator is designed in a way that it takes user requests based on;
 * date and time for the start of task
@@ -20,7 +20,7 @@ The calculator is designed in a way that it takes user requests based on;
 * break time(simply the hours and minutes for which a user will not work on his/her task)
 * The number of days a user will be available for the task in a week.
 
-###The Date and Time for Start and End of a task
+### The Date and Time for Start and End of a task
 
 The format for the date and time is YY MM D H M
 where;
@@ -36,7 +36,7 @@ datetime 25th January 2020, 2:30 A.M will be represented as 2020 01 25 2 30.
 Likewise the datetime 1st February 2015, 2:30P.M will be represented as
 2015 02 01 14 30
 
-###Break Time.
+### Break Time.
 it is basically in hours and minutes. It refers to the time a user will not be working
 on his/her task in a day.The format for the time and date is H M where;
 	H is the total number of hours a user will not work on task.
@@ -44,13 +44,13 @@ on his/her task in a day.The format for the time and date is H M where;
 For instance, a user that has a break time of 5hrs30mins will be represented as 5 30
 and a user that has no break will be represented as 0.
 
-###The Number of days of Work.
+### The Number of days of Work.
 This refers to the working days of a user. That is, the number of days a user
 works on the task in a week. For instance, if Kofi works from Monday to Friday, then his 
 number of days of work is 5
 
 
-###Acknowledgements
+### Acknowledgements
 This project has taken great inspiration from the Azubi graduate programme 
 organized by Azubi Africa.
 
@@ -61,17 +61,17 @@ with your suggested changes
 Thank You.
 
 
-###Authors
+### Authors
 
-*Emmanuel Akpe
+* Emmanuel Akpe
 Emmanuel.Akpe@azubiafrica.org
 (Data Scientist)
 
-*Efa Akoto
+* Efa Akoto
 Efa.Akoto@azubiafrica.org
 (Data Scientist)
 
-*Emmanuel Agyekum
+* Emmanuel Agyekum
 Emmanuel.Agyekum@azubiafrica.org
 (Data Scientist)
 
