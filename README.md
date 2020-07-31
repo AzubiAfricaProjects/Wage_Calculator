@@ -24,12 +24,12 @@ The calculator is designed in a way that it takes user requests based on;
 
 The format for the date and time is YY MM D H M
 where;
-	* YY is the year. e.g 2020
-	* MM is the month. e.g 01 stands for January, 02 stands for February etc
-	* D  is the day. 
-	* H  is the hours.
+* YY is the year. e.g 2020
+* MM is the month. e.g 01 stands for January, 02 stands for February etc
+* D  is the day. 
+* H  is the hours.
 (the calculator uses the 24hrs model, meaning 1A.M=1, 1P.M=13,2A.M=2,2P.M=14 etc)
-	* M  is the minutes.
+* M  is the minutes.
 
 the variables, thus YY MM D H M are separated by space. For example, the 
 datetime 25th January 2020, 2:30 A.M will be represented as 2020 01 25 2 30.
@@ -39,8 +39,8 @@ Likewise the datetime 1st February 2015, 2:30P.M will be represented as
 ### Break Time.
 it is basically in hours and minutes. It refers to the time a user will not be working
 on his/her task in a day.The format for the time and date is H M where;
-	* H is the total number of hours a user will not work on task.
-	* M is the total number of minutes a user will not work on task.
+* H is the total number of hours a user will not work on task.
+* M is the total number of minutes a user will not work on task.
 For instance, a user that has a break time of 5hrs30mins will be represented as 5 30
 and a user that has no break will be represented as 0.
 
