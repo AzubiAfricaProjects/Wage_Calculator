@@ -55,7 +55,7 @@ while DateStart is None:
     try:
         DateStart = datetime.strptime(DateEntry, "%Y %m %d %H %M")
     except ValueError:
-        print("Input must be \"<year number> <month number> <day number><hours><minutes>\"")
+          print("Input must be \"YY MM D H M e.g 2020/02/05 8:00= 2020 02 05 8 00 \"")
    
 
 while DateEnd is None:
@@ -65,7 +65,7 @@ while DateEnd is None:
     try:
         DateEnd = datetime.strptime(DateEntry, "%Y %m %d %H %M")
     except ValueError:
-        print("Input must be \"<year number> <month number> <day number><hours><minutes>\"")
+          print("Input must be \"YY MM D H M e.g 2020/02/05 8:00= 2020 02 05 8 00 \"")
 
 while Number_Hours_Minutes_off is None:
     DateEntry = input("Enter number of hours and minutes off per day H M ? ")
@@ -73,7 +73,7 @@ while Number_Hours_Minutes_off is None:
     try:
         Number_Hours_Minutes_off = datetime.strptime(DateEntry, "%H %M")
     except ValueError:
-        print("Input must be \"<hours><minutes>\"")
+           print("Input must be  H M e.g 2Hrs30mins=2 30 separted by space \"")
 
 number_of_days_work=int(input('Enter days available for work '))
 print('-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->')
