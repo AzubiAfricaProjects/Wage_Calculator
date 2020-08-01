@@ -36,4 +36,46 @@ while choice != '2':
     else:
         print('Enjoy your time here')
 #Efa Akoto Comment Ended
+
+
+        
+# Emmanuel Akpe created the code to take user inputs on dates and time.        
+# we then set a while condtion to find the start,end and break times of 
+#the project
+
+
+DateStart, DateEnd, Number_Hours_Minutes_off= None, None, None
+
+while DateStart is None:
+    DateEntry = input("Enter Date and Time at start of work YY MM D H M ")
+    print('--------------------------------------------------------------------')
+    
+    try:
+        DateStart = datetime.strptime(DateEntry, "%Y %m %d %H %M")
+    except ValueError:
+        print("Input must be \"<year number> <month number> <day number><hours><minutes>\"")
+   
+
+while DateEnd is None:
+    DateEntry = input("Enter Date and Time at end of work YY MM D H M ? ")
+    print('--------------------------------------------------------------------')
+    
+    try:
+        DateEnd = datetime.strptime(DateEntry, "%Y %m %d %H %M")
+    except ValueError:
+        print("Input must be \"<year number> <month number> <day number><hours><minutes>\"")
+
+while Number_Hours_Minutes_off is None:
+    DateEntry = input("Enter number of hours and minutes off per day H M ? ")
+    print('--------------------------------------------------------------------')
+    try:
+        Number_Hours_Minutes_off = datetime.strptime(DateEntry, "%H %M")
+    except ValueError:
+        print("Input must be \"<hours><minutes>\"")
+
+number_of_days_work=int(input('Enter days available for work '))
+print('-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->')
+
+#Emmanuel Akpe Comment Ended
+
         
