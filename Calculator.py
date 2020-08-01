@@ -18,8 +18,8 @@ def line():
 
 def show_menu():
     line()
-    print('1. view instructions')
-    print('2. Exit instructions')
+    print('press 1 to view instructions')
+    print('press 2 to Exit instructions')
     choice = input('Enter your choice: ')
     return choice
 
@@ -47,6 +47,7 @@ while choice != '2':
 
 DateStart, DateEnd, Number_Hours_Minutes_off= None, None, None
 
+print("time format is YY MM D H M e.g 2020/02/05 8:00= 2020 02 05 8 00")
 while DateStart is None:
     DateEntry = input("Enter Date and Time at start of work YY MM D H M ")
     print('--------------------------------------------------------------------')
