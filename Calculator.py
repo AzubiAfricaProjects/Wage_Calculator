@@ -1,5 +1,6 @@
 #since we will be working with time, we first import the
 # datetime,time and timedelta modules
+
 # Efa Akoto wrote the codes in reference to the instructions relating to the functionalities of the wage calculator.
 
 from datetime import datetime, date, time, timedelta
@@ -77,5 +78,37 @@ number_of_days_work=int(input('Enter days available for work '))
 print('-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->')
 
 #Emmanuel Akpe Comment Ended
+
+
+#Emmanuel Agyekum created this code to calculate the total hours worked and the
+# total wage
+
+#To find the total time spent on the project, we have to subtract the 
+#time spent on break and the start time from the end date
+
+Time_difference=(DateEnd-DateStart)
+BreakMinute=Number_Hours_Minutes_off.minute
+BreakHour=Number_Hours_Minutes_off.hour
+
+#We then multiply the time spent with the amount earned on hourly
+# basis to obtain the total amount earned after the task.
+
+Total_Time_available=Time_difference.total_seconds()/(60*60)
+total_Time_worked=Total_Time_available-(BreakHour+BreakMinute/60)*number_of_days_work
+
+print('your total time spent on the project is', total_Time_worked, 'hrs')
+
+print('Your total money made on the project is $',total_Time_worked*5 )
+
+print('-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->-->')
+
+
+
+with  open('tracker_log.csv', "a", newline="") as log:
+    writer = csv.writer(log)
+    writer.writerow(['Start Date and Time',  'Finish Date and Time',  'Hours and Minutes off','Hours Worked' ,'Money Made'])
+    writer.writerow([ DateStart, DateEnd,  Number_Hours_Minutes_off,total_Time_worked, total_Time_worked*5])
+    
+log.close() 
 
         
